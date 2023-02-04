@@ -4,10 +4,10 @@ require("core.options")
 require("core.keymaps")
 
 -- 插件
-require("plugins.lualine")
-require("plugins/nvim-tree")
-require("plugins/treesitter")
-require("plugins/comment")
-require("plugins/bufferline")
-require("plugins/gitsigns")
-require("plugins/telescope")
+require("plugins.lualine")  -- 状态栏
+require("plugins/nvim-tree") -- 文件树
+require("plugins/treesitter") --语法高亮
+require("plugins/comment") -- 注释
+require("plugins/bufferline") -- 标签栏
+require("plugins/gitsigns")  -- git提示
+require("plugins/telescope") -- 模糊搜索
