@@ -15,11 +15,11 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 keymap.set("n", ";", ":")
 keymap.set("n", "S", ":w<CR>")
 keymap.set("n", "Q", ":q!<CR>")
-keymap.set("n", "s", "<nop>")
+ keymap.set("n", "s", "<nop>")
 
 
-
-keymap.set("n", "H", "5h")
+-- 快速移动
+keymap.set("n", "H", "5h")  
 keymap.set("n", "J", "5j")
 keymap.set("n", "K", "5k")
 keymap.set("n", "L", "5l")
